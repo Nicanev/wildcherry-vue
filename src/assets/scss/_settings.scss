@@ -102,9 +102,7 @@ p {
 
 @media (max-width: 48em) {
     html {
-      font-size: 5px;
-      font-size: 1.5625vw;
-      font-size: calc((100/320) * 5vw); 
+      font-size: calc((100/320) * 5vw);
       -webkit-text-size-adjust: none;
     }
 

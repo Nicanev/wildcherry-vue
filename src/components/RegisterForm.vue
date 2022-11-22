@@ -6,7 +6,7 @@ main.main
         .auth__img
           img(src="@/assets/img/icons/ID.png", alt="WILDCHERRY ID")
         .auth__title
-          h2 Вход в аккаунт
+          h2 Регистрация
         .auth__form.form
           .form__item
             input.form__input(type="text", required)
@@ -15,9 +15,10 @@ main.main
             input.form__input(type="password", required)
             label.form__label Пароль
           .form__item
-            button.btn.form__button Войти в аккаунт
+            button.btn.form__button Зарегистрироваться
           .form__item
-            a(href="#").form__link Регистрация
+            router-link(to="/login")
+              a(href="#").form__link Войти
 </template>
 
 <script>

@@ -5,10 +5,7 @@ section.banner
       .banner__swiper-wrapper.swiper-wrapper
         .banner__swiper-slide.swiper-slide
           .banner__img
-            img(src="@/assets/img/banners/banner_1.jpg?as=webp", alt="Banner")
-        .banner__swiper-slide.swiper-slide
-          .banner__img
-            img(src="@/assets/img/banners/banner_1.jpg?as=webp", alt="Banner")
+            img(src="@/assets/img/banners/banner_1.jpg", alt="Banner")
       .banner__swiper-btn-next
         button.btn
           <svg viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +21,7 @@ section.banner
 
 <script>
 export default {
-  name: "TheBanner",
+  name: "BannerSection",
 };
 </script>
 

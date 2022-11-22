@@ -17,7 +17,8 @@ main.main
           .form__item
             button.btn.form__button Войти в аккаунт
           .form__item
-            a(href="#").form__link Регистрация
+            router-link(to="/register")
+              a(href="#").form__link Регистрация
 </template>
 
 <script>
