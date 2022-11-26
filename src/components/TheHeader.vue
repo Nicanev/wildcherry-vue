@@ -201,21 +201,21 @@ header.header
 
 <script>
 export default {
-  name: "TheHeader",
-  data() {
-    return {
-      isCatalogOpen: false,
-      currentCatalogCategory: "Electronic",
-    };
-  },
-  methods: {
-    openCatalog() {
-      this.isCatalogOpen = !this.isCatalogOpen;
-    },
-    selectCatalogCategory(category) {
-      this.currentCatalogCategory = category;
-    },
-  },
+	name: "TheHeader",
+	data() {
+		return {
+			isCatalogOpen: false,
+			currentCatalogCategory: "Electronic",
+		};
+	},
+	methods: {
+		openCatalog() {
+			this.isCatalogOpen = !this.isCatalogOpen;
+		},
+		selectCatalogCategory(category) {
+			this.currentCatalogCategory = category;
+		},
+	},
 };
 </script>
 
