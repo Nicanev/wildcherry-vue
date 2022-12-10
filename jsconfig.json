@@ -1,4 +1,9 @@
 {
+  "vueCompilerOptions": {
+    "plugins": [
+      "@volar/vue-language-plugin-pug"
+    ]
+  },
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",

@@ -32,9 +32,10 @@ header.header
           button.btn
             img(src="@/assets/img/icons/Like.svg", alt="Favourite")
             span Избранное
-          button.btn
-            img(src="@/assets/img/icons/Cart.svg", alt="Cart")
-            span Корзина
+          router-link(to="/cart")
+            button.btn
+              img(src="@/assets/img/icons/Cart.svg", alt="Cart")
+              span Корзина
           router-link(to="/login")
             a(href="#")
               button.btn
