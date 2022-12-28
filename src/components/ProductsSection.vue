@@ -15,8 +15,8 @@ section.products
             .card__advertisement Реклама
           .card__body
             .card__price
-              .card__current-price {{ product.price }}
-              .card__old-price.active {{ product.price / 100 * product.discount }}
+              .card__current-price {{ Math.round(product.price / 100 * product.discount) }} руб.
+              .card__old-price.active {{ product.price }}
             .card__title {{ product.name }}
             .card__rating
               <svg viewBox="0 0 96 16" fill="none" xmlns="http://www.w3.org/2000/svg">
